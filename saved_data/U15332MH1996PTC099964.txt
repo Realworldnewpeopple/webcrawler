@@ -1,0 +1,816 @@
+<html class="no-js" lang="en"><!--<![endif]--><head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<!-- meta http-equiv="X-Frame-Options" content="DENY"> -->
+<!-- IE-8 compatibility -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />  -->
+<meta content="The Ministry is primarily concerned with administration of the Companies Act 2013 and 1956, other allied Acts and rules &amp; regulations framed there-under mainly for regulating the functioning of the corporate sector in accordance with law." name="description"/>
+<meta content="Ministry Of Corporate Affairs, About MCA, Ministry" name="keywords"/>
+<!-- meta charset="UTF-8" />-->
+<title>Ministry Of Corporate Affairs - MCA Services</title>
+<link href="/mcafoportal/css/layout.css" rel="stylesheet"/>
+<link href="/mcafoportal/css/frontoffice.css" rel="stylesheet"/>
+<script src="js/html5.js" type="text/javascript"></script>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
+<script src="js/jcarousel.basic.js" type="text/javascript"></script>
+<script src="js/nav.js" type="text/javascript"></script>
+<script src="js/global.js" type="text/javascript"></script>
+<script src="/mcafoportal/js/calendar.js" type="text/javascript"></script>
+<script src="/mcafoportal/js/datetimepicker.js" type="text/javascript"></script>
+<script src="/mcafoportal/js/topnav.js" type="text/javascript"></script>
+<script src="js/font-resize.js" type="text/javascript"></script>
+<script type="text/javascript">
+			var contextRoot = "/mcafoportal";
+		</script>
+<script src="/mcafoportal/js/masterData.js" type="text/javascript"></script>
+<script>
+		$(document).ready(function()
+		{
+		    showDiv('subnav1-view','','','subnav-view');
+			highlightmenu1('subnav-view','subnav1-view','nav-inner-comp1','viewCompanyMasterData');
+			highlightCurrent('services'); 
+			showSAPValidationMessagesOverlay(); 
+			$('#companyID').focus();
+			document.getElementById("companyName").disabled = true;   
+			document.getElementById("userEnteredCaptcha").value=""; 
+		});		
+	</script>
+</head>
+<body onload="javascript:preventBack();">
+<div class="widthcommon center" id="container">
+<div id="header">
+<div class="headerbottom">
+<span class="welcomemsg floatLeft" id="welcomeMsg">
+                                        
+                                        Welcome Guest
+                                        
+                                        
+                                </span>
+<span class="homeicon headernav">
+<ul>
+<li style="padding-left:0;"><a href="/MinistryV2/corporatesevakendra.html">Corporate Seva Kendra</a></li>
+<li><a href="/MinistryV2/companyformsdownload.html">Forms &amp; Downloads</a></li>
+<li><a href="/MinistryV2/sitemap.html">Sitemap</a></li>
+<li>
+<a href="/mcafoportal/login.do" id="loginAnchor">Login</a>
+</li>
+<li>
+<a href="/mcafoportal/loadUserRegistration.do?link=loadUserRegistration">Register</a>
+</li>
+</ul>
+</span>
+<div class="floatRight" style="width:288px;">
+<!-- <a href="/MinistryV2_hn" target="_blank"><span class="homeicon hindiiconw floatRight"><img src="img/Hindi.png" /></span></a> -->
+<span class="searchdiv floatLeft">
+<form action="/MCASearch/results_v2.jsp" method="get" name="mcasearch">
+<div class="searchicon floatLeft">
+<input name="maxresults" size="4" type="hidden" value="10"/>
+<input name="fe" type="hidden" value="UTF-8"/>
+<input class="searchiconinput floatLeft" id="search-text" name="query" onblur="if(this.value==''){this.value='Type here to Search...'};" onfocus="if (this.value==this.defaultValue)this.value='';" size="15" title="search" type="text" value="Type here to Search..."/>
+<input class="searchicon1 floatLeft" type="submit" value=""/>
+</div>
+</form>
+</span>
+<span class="homeicon idicon icons" style="width:92px; float:right;"><a class="increaseFont" href="#"><img src="img/increaseicon.gif" style="float:left;"/></a><a class="decreaseFont" href="#"><img src="img/decreaseicon.gif" style="float:left;padding-left:2px;"/></a></span>
+</div>
+</div>
+<header class="widthcommon">
+<div class="headertop floatLeft">
+<div class="topLink floatRight"><img alt="Links" src="img/Empowering_image.png"/></div>
+<span class="title"><a href="/MinistryV2/"><img alt="Logo" src="img/Emblem_of_India_svg.png" style="padding-top:20px;"/></a></span>
+</div>
+</header>
+</div>
+<div id="navigation">
+<script src="js/topnav.js" type="text/javascript"></script>
+<nav class="floatLeft widthcommon">
+<div class="navigation widthcommon">
+<ul class="floatLeft">
+<li class="home" id="home" style="border-left: 2px solid #fff"><a href="/MinistryV2/homepage.html">HOME</a></li>
+<li class="paddi" id="about"><a href="/MinistryV2/about_mca.html">ABOUT MCA</a></li>
+<li class="paddi" id="acts"><a href="/MinistryV2/companiesact2013.html">ACTS &amp; RULES</a></li>
+<li class="paddi" id="workspace"><a href="/mcafoportal/">MY WORKSPACE</a></li>
+<li class="paddi selectedmenu" id="services"><a href="/MinistryV2/acquiredsc.html">MCA SERVICES</a></li>
+<li class="paddi" id="info"><a href="/MinistryV2/annualreports.html">DATA &amp; REPORTS</a></li>
+<li class="paddi" id="contacts"><a href="/MinistryV2/webinformationmanager.html">CONTACTS</a></li>
+<li class="paddi" id="quicklinks"><a href="/MinistryV2/efiling.html">HELP &amp; FAQS</a></li>
+</ul>
+</div>
+<div class="aboutus" id="about-submenu">
+<div class="columns floatLeft">
+<div class="navleft floatLeft">
+<h1><span class="f1">about MCA</span></h1>
+<span class="aboutdetail1 floatLeft"><img alt="Image" class="image1" src="img/about.png"/></span>
+<span class="aboutdetail floatLeft">Visit these pages to find out all about MCA. Includes information on MCA's main functions and other details about the Ministry.</span>
+</div>
+<div class="navlinks2 floatLeft">
+<ul>
+<li class="navborder"><a href="/MinistryV2/about_mca.html">About MCA</a></li>
+<!--li class="navborder"><a href="/MinistryV2/strategic_plan.html">Strategic Plan of MCA</a></li-->
+<li class="navborder"><a href="/Ministry/pdf/Citizen_charter_June2013.pdf" target="_blank">Citizens Charter</a></li>
+<li class="navborder"><a href="/Ministry/pdf/inductionmaterial.pdf" target="_blank">MCA Induction Material</a></li>
+<li class="navborder"><a href="/Ministry/pdf/orgchart_23jan_2014.pdf">Organization Chart</a></li>
+<li class="navborder"><a href="/MinistryV2/rfd.html">Results-Framework Document</a></li>
+<li class="navborder"><a href="/MinistryV2/rti.html">Right To Information</a></li>
+<li id="affiliationsid"><a href="/MinistryV2/sfio.html">Affiliated Offices</a>
+<ul>
+<!--li id="clb"><a href="clb.html">Company Law Board</a></li-->
+<li><a href="/MinistryV2/sfio.html">Serious Fraud Investigation Office</a></li>
+<li><a href="/MinistryV2/cci.html">Competition Commission of India</a></li>
+<li><a href="/MinistryV2/iica.html">Indian Institute of Corporate Affairs</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="aboutus" id="acts-submenu">
+<div class="columns floatLeft">
+<div class="navleft floatLeft">
+<h1><span class="f2">acts &amp; rules</span></h1>
+<span class="aboutdetail1 floatLeft"><img alt="Image" class="image2" src="img/Acts&amp;Rules.png"/></span>
+<span class="aboutdetail floatLeft">Get to know the Acts, Rules, Notifications, Circulars etc.</span>
+</div>
+<div class="navlinks2 floatLeft">
+<ul>
+<li class="navborder"><a href="/MinistryV2/companiesact2013.html">Companies Act</a></li>
+<li class="navborder"><a href="/MinistryV2/llpact.html">Limited Liability Partnership Act, 2008</a></li>
+<li class="navborder"><a href="/MinistryV2/insolvency+and+bankruptcy+code.html">Insolvency and Bankruptcy Code, 2016</a></li>
+<li class="navborder"><a href="/MinistryV2/competitionact.html">Competition Act, 2002</a></li>
+<!--	<li class="navborder lineheighta paddingb"><a href="monopoliesact.html">Monopolies and Restrictive Trade Practices Act, 1969</a></li> -->
+<li class="navborder"><a href="/MinistryV2/partnershipact.html">Partnership Act, 1932</a></li>
+<li class="navborder"><a href="/MinistryV2/charteredaccountantsact.html">Chartered Accountants Act, 1949</a></li>
+<li class="navborder"><a href="/MinistryV2/costandworksact.html">Cost and Works Accountants Act</a></li>
+<li class="navborder"><a href="/MinistryV2/thecompanysecretariesact.html">Company Secretaries Act, 1980</a></li>
+<li class="navborder"><a href="/MinistryV2/societiesregistrationact.html">Societies Registration Act, 1860</a></li>
+<li class="navborder"><a href="/MinistryV2/companiesdonationtonationalfundact1951.html">Companies ( Donation to National ) Fund Act, 1951</a></li>
+<!-- <li class="navborder"><a href="/MinistryV2/standards.html">Standards</a>
+						<ul>
+							<li><a href="/MinistryV2/standards.html">Indian Accounting Standards</a></li>
+						</ul>
+					</li> -->
+<li><a href="/MinistryV2/othercirculars.html">Other Circulars</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="aboutus" id="services-submenu">
+<div>
+<div class="navlinks3 floatLeft">
+<ul>
+<li class="navborder"><a href="/MinistryV2/acquiredsc.html">DSC Services</a>
+<ul>
+<li><a href="/MinistryV2/acquiredsc.html">Acquire DSC</a></li>
+<li><a href="showAssociateDSC.do">Associate DSC</a></li>
+<li><a href="/MinistryV2/updatedsc.html">Update DSC</a></li>
+</ul>
+</li>
+<li class="navborder"><a href="/MinistryV2/applyfordin.html">DIN Services</a>
+<ul>
+<li><a href="showEnquireDIN.do">Enquire DIN Status</a></li>
+<li class="lineheighta paddingb"><a href="showVerifyDIN.do">Verify DIN PAN Details of Director</a></li>
+<li>
+<a href="/mcafoportal/vefDirKYCService.do" id="verifydirkyc">DIR-3-KYC-WEB  								 
+								<span class="lockmargin">
+<img src="img/newLock.png" title="Post login service"/>
+</span>
+</a> <img alt="New" src="img/New.png"/>
+</li>
+</ul>
+</li>
+<li><a href="/MinistryV2/aboutmasterdata.html">Master Data</a>
+<ul>
+<li class="lineheighta"><a href="viewCompanyMasterData.do">View Company/LLP Master Data</a></li>
+<li><a href="showIndexOfCharges.do">View Index of Charges</a></li>
+<li><a href="viewSignatoryDetails.do">View Signatory Details</a></li>
+<li><a href="prosecutionDetailsAction.do">View Companies/Directors under Prosecution</a></li>
+<li><a class="lineheighta" href="companiesRegReport.do">Companies / LLP's Registered in Last 30 days</a></li>
+<li><a href="viewDirectorMasterData.do">View Director Master Data</a></li>
+<li><a href="showCompanyForDirector.do">View Director / Designated Partner Details  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="advancedSearchLoad.do">Advanced Search   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="navborder"><a href="/MinistryV2/aboutefilingforllp.html">LLP Services</a>
+<ul>
+<li><a href="showCheckLLPName.do">Check LLP Name</a></li>
+<li><a href="findLLPIN.do">Find LLPIN</a></li>
+<li><a href="runLLPService.do"><span style="font: 15px 'Bauhaus 93';">RUN-LLP</span><span> (Reserve Unique Name-LLP)</span>  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="/MinistryV2/incorporation.html">Incorporation</a></li>
+<li><a href="/MinistryV2/annualefilingforllp.html">Annual e-Filing for LLP</a></li>
+<li><a href="/MinistryV2/changellpinformation.html">Change LLP Information</a></li>
+<li><a href="/MinistryV2/closellp.html">Close LLP</a></li>
+</ul>
+</li>
+<li class="navborder"><a href="/MinistryV2/aboutfiling_llp_business_user.html">LLP Services for Business Users</a>
+<ul>
+<li><a href="enterUpdatePartnerDetails.do">Enter/Update Partner Details   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span> </a></li>
+<li class="lineheighta"><a href="enterForm3and4Details.do">Enter Form 3 Or Form 3&amp;4 Details For LLP Filing  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li class="lineheighta"><a href="verifyPartnerDetails.do" id="navVerifyPartnerDetailsAnnualReturns">Verify Partner's Details For Filing Annual Return   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span> </a></li>
+</ul>
+</li>
+<li><a href="/MinistryV2/companyformsdownload.html">e-Filing</a>
+<ul>
+<li><a href="/MinistryV2/llpformsdownload.html">LLP Forms Download</a></li>
+<li><a href="/MinistryV2/companyformsdownload.html">Company Forms Download</a></li>
+<!--li><a href="/MinistryV2/AnnualFiling.html">Annual e-Filing Guidelines</a></li-->
+<!--li><a href="showSubmitPanTan.do">Submit Application for PAN and TAN &nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span>&nbsp;<img alt="New" src="img/New.png" /></a></li-->
+<li><a href="showEformUpload.do">Upload eForms   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li class="lineheighta"><a href="showDownloadForResub.do">Download
+								Submitted Form for resubmission   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/> </span> </a></li>
+<li><a href="showCheckFilingStatus.do">Check Annual Filling Status</a></li>
+<li><a href="uploadDetailsOfSH.do">Upload Details of Security Holders/Debenture Holders/Depositors   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="subsidiaryDetails.do">Update Subsidiary Details   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="navborder"><a href="/MinistryV2/incorporation_company.html">Company Services</a>
+<ul>
+<li><a href="showCheckCompanyName.do">Check Company Name</a></li>
+<li><a href="/mcafoportal/findCIN.do" target="_blank">Find CIN</a></li>
+<!--<li><a href="runService.do">RUN (Reserve Unique Name) &nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span>&nbsp;<img alt="New" src="img/New.png" /></a></li>-->
+<li><a href="runService.do"><span style="font: 15px 'Bauhaus 93';">RUN</span><span style="border: 0px; padding: 0px; margin-left: 0px;"> (Reserve Unique Name)</span>  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="/MinistryV2/incorporation_company.html">Incorporation</a></li>
+<li><a href="/MinistryV2/companyformsdownload.html#compl">Compliance Filing</a></li>
+<li><a href="/MinistryV2/companyformsdownload.html#apprhq">Approval Services</a></li>
+<li><a href="/MinistryV2/changecompanyinformation.html">Change Company Information</a></li>
+<li><a href="/MinistryV2/companyformsdownload.html#charge">Charge Management</a></li>
+<li><a href="/MinistryV2/companyformsdownload.html#infoserv">Informational Services</a></li>
+<li><a href="/MinistryV2/closecompany.html" target="_self">Close Company</a></li>
+</ul>
+</li>
+<li><a href="/MinistryV2/complaints.html">Complaints</a>
+<ul>
+<li><a href="userComplaintDetails.do">Create Service Related Complaint</a></li>
+<li><a href="trackStatus.do" id="navTrackServiceRelatedComplaintStatus">Track Service Related Complaint Status</a></li>
+<li><a href="/MinistryV2/createinvestorcomplaint.html">Create Investor/Serious Complaint</a></li>
+<li><a href="mcatrackComplaintLayout.do">Track Investor/Serious Complaint Status</a></li>
+<li><a href="userSuggestionDetails.do">Feedback / Suggestions</a></li>
+<li><a href="userEmployeeGrievances.do">Employee Grievances</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="navborder"><a href="/MinistryV2/document+related+services.html">Document Related Services</a>
+<ul>
+<li><a href="getCertifiedCopies.do">Get Certified Copies</a></li>
+<li><a href="viewPublicDocumentsFilter.do">View Public Documents</a></li>
+<li><a href="showRequestForScannedDocuments.do" id="navRequestForScannedDocs">Request for Scanned<br/> Documents  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</li>
+<li class="navborder"><a href="#">Fee and Payment Services</a>
+<ul>
+<!-- <li><a href="enquireFeePreLogin.do">Calculate Fees</a></li> -->
+<li><a href="enquireFee.do">Enquire Fees</a></li>
+<li><a href="showPayLater.do">Pay Later  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="showNEFTPayment.do">Link NEFT Payment  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="showPayMiscellaneousFee.do">Pay Miscellaneous Fee   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="showStampDutyPayment.do">Pay Stamp Duty  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li><a href="showTrackPaymentStatus.do">Track Payment Status</a></li>
+<li><a href="grnSRNForOflnPmnt.do">Generate SRN For Offline Payment  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</li>
+<li class="navborder"><a href="/MinistryV2/investorservices.html">Investor Services</a>
+<ul>
+<li>
+<a href="/mcafoportal/iepf5Service.do" id="iepf5Service">
+<span style="font: 15px 'Bauhaus 93';">IEPF-5</span>   
+		                    <span class="lockmargin">
+<img src="img/newLock.png" title="Post login service"/>
+</span>
+</a> <img alt="New" src="img/New.png"/>
+</li>
+<li>
+<a href="/mcafoportal/iepf5TrackService.do" id="iepf5Service">
+		                    Track <span style="font: 15px 'Bauhaus 93';">IEPF-5</span> SRN   
+		                    <span class="lockmargin">
+<img src="img/newLock.png" title="Post login service"/>
+</span>
+</a> <img alt="New" src="img/New.png"/>
+</li>
+</ul>
+</li>
+<li class="navborder"><a href="mcatrackSRNLayout.do">Track SRN / Transaction Status  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<!-- <li class="navborder lineheighta paddingb"><a href="userComplaintDetails.do">User Complaint Registration</a></li>
+					<li class="navborder"><a href="trackComplaintStatus.do">Track Complaint Status</a></li> -->
+<!-- <li class="navborder"><a href="transferDeedLayout.do">Transfer Deed&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span></a></li> -->
+<!-- <li class="navborder"><a href="migratedLLPPartnerDetails.do">Migrated LLP Partner Details&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span></a></li>&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span> -->
+<li class="navborder"><a href="/MinistryV2/addressforsendingphysicalcopyofg.a.r.33.html">Address for sending physical copy of G.A.R. 33</a></li>
+<li><a href="http://ipindiaonline.gov.in/tmrpublicsearch/frmmain.aspx" target="_blank">Public Search of Trademark <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li class="navborder"><a href="noticesLayout.do">Notices Under Section 248</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="aboutus infopos" id="info-submenu">
+<div class="columns floatLeft">
+<div class="navleft floatLeft">
+<h1>
+<span class="f1">Data &amp; Reports</span>
+</h1>
+<span class="aboutdetail1 floatLeft"><img alt="Image" class="image2" src="img/statistics.png"/></span>
+<span class="aboutdetail floatLeft">View this section for all
+					the latest information about MCA and the reports published by the
+					Ministry.</span>
+</div>
+<div class="navlinks2 floatLeft">
+<ul>
+<li class="navborder"><a href="/MinistryV2/annualreports.html">Reports</a>
+<ul>
+<li><a href="/MinistryV2/annualreports.html">Annual Reports</a></li>
+<li><a href="/MinistryV2/nidhicompanies.html">Report on Nidhi Companies</a></li>
+<li><a href="/MinistryV2/monthlymcanewsletters.html">Monthly MCA Newsletters</a></li>
+<li><a href="/MinistryV2/monthlyinformationbulletin.html">Monthly Information Bulletin</a></li>
+<li><a href="/MinistryV2/otherreports.html">Other Reports</a></li>
+<li><a href="/MinistryV2/library.html">Library</a></li>
+</ul>
+</li>
+<li class="navborder"><a href="/MinistryV2/master+details.html">Company/LLP Information</a>
+<ul>
+<li><a href="/MinistryV2/master+details.html">Master Details</a></li>
+<li><a href="/MinistryV2/incorporatedorclosedduringthemonth.html">Incorporated or Closed during the month</a></li>
+<li><a href="/MinistryV2/basedonactivity.html">Based on Activity</a></li>
+<li><a href="/MinistryV2/basedonownership.html">Based on Ownership</a></li>
+<li><a href="/MinistryV2/underalert.html">Under Alert</a></li>
+<li><a href="/MinistryV2/formsfiledunderfte1.html">Forms filed under FTE</a></li>
+<li><a href="/MinistryV2/listofllpwhohavefiledform241.html">List of LLP who have filed Form 24</a></li>
+</ul>
+</li>
+<li><a href="/MinistryV2/indianandforeigncompaniesllps.html">Company Statistics</a>
+<ul>
+<li><a href="/MinistryV2/indianandforeigncompaniesllps.html">Indian and Foreign Companies, LLPs</a></li>
+<li><a href="/MinistryV2/paidupcapitalreports.html">Paid up capital Reports-Companies Limited By Share</a></li>
+<li><a href="/MinistryV2/csrdatasummary.html">CSR Data and Summary</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="aboutus rtipos" id="contacts-submenu">
+<div class="columns floatLeft">
+<div class="navleft floatLeft">
+<h1>
+<span class="f3">contacts</span>
+</h1>
+<span class="aboutdetail1 floatLeft"><img alt="Image" class="image1" src="img/contacts.png"/></span> <span class="aboutdetail floatLeft">Need to contact us? Visit
+					these pages to know key MCA contacts and how to reach them.</span>
+</div>
+<div class="navlinks2 floatLeft">
+<ul>
+<li class="navborder"><a href="/MinistryV2/ministerofcorporateaffairs.html">Minister
+							of Corporate Affairs</a></li>
+<li class="navborder"><a href="/MinistryV2/minister_ca_state.html">Minister of State for Corporate
+								Affairs </a></li>
+<li class="navborder"><a href="/MinistryV2/headquarter.html">List
+							of Officials at Head Quarters</a></li>
+<li class="navborder"><a href="/MinistryV2/regionaldirectors.html">Regional
+							Directors</a></li>
+<li class="navborder"><a href="/MinistryV2/registrarofcompanies.html">Registrar
+							of Companies</a></li>
+<li class="navborder"><a href="/MinistryV2/officialliquidators.html">Official
+							Liquidators</a></li>
+<li class="navborder"><a href="/MinistryV2/costauditbranch.html">Cost
+							Audit Branch (CAB)</a></li>
+<li class="navborder"><a href="/MinistryV2/ministry+of+corporate+affairs.html">Nodal
+							Officers</a></li>
+<li class="navborder"><a href="/MinistryV2/liaisonofficeforsc-st-obc.html">Liaison
+							Office for SC/ST/OBC</a></li>
+<li class="navborder"><a href="/MinistryV2/staffgrievanceofficer.html">Staff
+							Grievance Officer</a></li> <li class="navborder"><a href="/MinistryV2/webinformationmanager.html">Web Information Manager</a></li>
+<!--<li><a href="/MinistryV2/contentcontactus.html">Contact us</a></li>-->
+</ul>
+</div>
+</div>
+</div>
+<div class="aboutus quickpos" id="quicklinks-submenu">
+<div class="floatLeft">
+<div class="navlinks4 floatLeft">
+<ul>
+<li class="navborder"><a href="/Ministry/pdf/MCAV2Release2_Help.pdf" target="_blank">Help on
+							using the MCA Portal</a></li>
+<li class="navborder"><a href="/MCA21/CBT/index.html" target="_blank">Video Based Tutorial - CBT </a></li>
+<li class="navborder"><a href="/MinistryV2/systemrequirements.html">System
+							Requirements</a></li>
+<li class="navborder"><a href="/MinistryV2/xbrl.html">XBRL</a></li>
+<li class="navborder"><a href="/MinistryV2/userregistration.html">User Registration</a></li>
+<li class="navborder"><a href="/MinistryV2/efiling.html">e-Filing</a>
+<ul>
+<li><a href="/MinistryV2/prerequisitesoftwarefore-filing.html">Prerequisite
+									Software for e-Filing </a></li>
+<li><a href="/MinistryV2/annualefiling.html">Annual e-Filing</a></li>
+<li><a href="/MinistryV2/linkedefiling.html">Linked e-Filing</a></li>
+</ul>
+</li>
+<li><a href="/MinistryV2/digitalsignaturecertificate.html">DSC</a>
+<ul>
+<li><a href="/MinistryV2/digitalsignaturecertificate.html">Digital
+								Signature Certificate</a></li>
+<li><a href="/MinistryV2/rolecheck_faq1.html">Associate DSC</a></li>
+</ul>
+</li>
+<li class="lineheighta paddingb"><a href="/MinistryV2/cancel+srn+due+to+unsuccessful+payment+content+page.html">Cancel SRN due to Unsuccessful Payment</a></li>
+<li class="lineheighta paddingb"><a href="http://www.mca.gov.in/Ministry/pdf/FAQ_CSR.pdf">Corporate Social Responsibility</a></li>
+</ul>
+<ul>
+<li class="navborder"><a href="/MinistryV2/central+registration+centre+content+page.html">Central Registration Center(CRC)</a></li>
+<li class="navborder"><a href="/MinistryV2/payment.html">Payment</a>
+<ul>
+<li><a href="/MinistryV2/refund.html">Refund</a></li>
+<li><a href="/MinistryV2/paylater.html">Pay
+									Later</a></li>
+<!--li><a
+								href="/MinistryV2/faq_verify_payment.html">Verify Payment</a></li-->
+<li><a href="/MinistryV2/neft.html">NEFT</a></li>
+<li><a href="/MinistryV2/estamp.html">eStamp</a></li>
+<li><a href="/MCA21/dca/efiling/eStamp_rate.pdf" target="_blank">Rates
+									of Stamp Duty</a></li>
+<!--li><a href="/MinistryV2/faq_bank_account1.html">Corporate Bank
+									Account</a></li-->
+<li><a href="/MCA21/dca/banks/banks_new.html" target="_blank">List of
+									Authorised Banks</a></li> <li><a href="/MinistryV2/faq_stamp_duty.html">Stamp Duty Payment for LLP</a></li>
+</ul>
+</li>
+<li class="navborder"><a href="/MinistryV2/llpefiling.html">Limited Liability Partnership</a></li>
+<li class="navborder"><a href="/MinistryV2/onepersoncompany.html">One Person Company</a></li>
+<li class="navborder"><a href="/MinistryV2/dinprocess.html">DIN Process</a></li>
+<li class="navborder"><a href="/MinistryV2/otherservices.html">Other Services</a></li>
+<li><a href="/MCA21/dca/cfc/Default_new.htm" target="_blank">List of CFC's</a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<div class="clearBoth"></div>
+<div class="innerBannerDin center">
+<div class="innerShadow">
+<span class="links floatLeft" style="padding-left: 2em;">
+<h1>MCA Services</h1>
+<ul>
+<li><a href="/MinistryV2/index.html">Home</a></li>
+<li><span class="floatLeft">&gt;</span></li>
+<li><a href="/MinistryV2/acquiredsc.html">MCA Services</a></li>
+<li><span class="floatLeft">&gt;</span></li>
+<li><a href="/MinistryV2/aboutmasterdata.html">Master Data</a></li>
+<li><span class="floatLeft">&gt;</span></li>
+<li class="activehover">Company/LLP Master Data</li>
+</ul>
+</span>
+</div>
+</div>
+<div class="clearBoth"></div>
+<div class="center" id="innerContent">
+<section>
+<div class="aboutnav heightL floatLeft" id="leftnav">
+<ul>
+<li class="subarrow" id="subnav-dsc"><span class="pink_arrow" id="pink-highlight-dsc"><a href="javascript:showDiv('subnav1-dsc','subnav-dsc');">DSC Services</a></span></li>
+<span class="aboutsubnava" id="subnav1-dsc">
+<ul id="nav-inner-dsc">
+<li id="dsc1"><a href="/MinistryV2/acquiredsc.html">Acquire DSC</a></li>
+<li id="associateDSC"><a href="showAssociateDSC.do"> Associate DSC</a></li>
+<li id="updateDSC"><a href="/MinistryV2/updatedsc.html">Update DSC</a></li>
+</ul>
+</span>
+<li class="subarrow" id="subnav-din"><span class="pink_arrow" id="pink-highlight-din"><a href="javascript:showDiv('subnav1-din','','subnav-din');">DIN Services</a></span></li>
+<span class="aboutsubnava" id="subnav1-din">
+<ul id="nav-inner-din">
+<li id="din0"><a href="/MinistryV2/applyfordin.html">Apply for DIN</a></li>
+<li id="enquireDIN"><a href="showEnquireDIN.do">Enquire DIN Status</a></li>
+<li class="lineheighta" id="verifyDIN"><a href="showVerifyDIN.do">Verify DIN PAN Details of Director</a></li>
+<li id="verifydirkyc">
+<a href="/mcafoportal/vefDirKYCService.do">DIR-3-KYC-WEB   					 
+					<span class="lockmargin">
+<img src="img/newLock.png" title="Post login service"/>  
+					<img alt="New" src="img/New.png"/>
+</span>
+</a>
+</li>
+</ul>
+</span>
+<li class="subarrow left-main-menu" id="subnav-view"><span class="" id="pink-highlight-view"><a href="javascript:showDiv('subnav1-view','','','subnav-view');">Master Data</a></span></li>
+<span class="aboutsubnava floatLeft left-submenu-container" id="subnav1-view" style="display: block;">
+<ul id="nav-inner-view">
+<li id="view0"><a href="/MinistryV2/aboutmasterdata.html">About Master Data</a></li>
+<li class="lineheighta activelink" id="viewCompanyMasterData">View Company / LLP Master Data</li>
+<li id="viewIndexCharges"><a href="showIndexOfCharges.do">View Index of Charges</a></li>
+<li id="viewSignatoryDetails"><a href="viewSignatoryDetails.do">View Signatory Details</a></li>
+<!-- <li id="viewProsecutionDetails" class="lineheighta"><a href="/MinistryV2/prosecutionDetails.html">View Companies/Directors under Prosecution</a></li> -->
+<li id="viewDirectorMasterData"><a href="viewDirectorMasterData.do">View Director Master Data</a></li>
+<li class="lineheighta" id="companyforDirectorPartner"><a href="showCompanyForDirector.do">View Director / Designated Partner Details  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="advancedSearch"><a href="advancedSearchLoad.do">Advanced Search   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</span>
+<li class="subarrow" id="llp"><span class="pink_arrow" id="pink-highlight-llp"><a href="javascript:showDiv('llp1','','','','','','llp');">LLP Services</a></span></li>
+<span class="aboutsubnava floatLeft" id="llp1">
+<ul id="nav-inner-llp1">
+<li id="llpserv0"><a href="/MinistryV2/aboutefilingforllp.html">About e-Filing for LLP</a></li>
+<li id="checkllp"><a href="showCheckLLPName.do">Check LLP Name</a></li>
+<li id="llpserv7"><a href="findLLPIN.do">Find LLPIN</a></li>
+<li><a href="runLLPService.do"><span style="font: 15px 'Bauhaus 93';">RUN-LLP</span><span> (Reserve Unique Name-LLP)</span>  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="llpserv2"><a href="/MinistryV2/incorporation.html">Incorporation</a></li>
+<li id="llpserv3"><a href="/MinistryV2/annualefilingforllp.html">Annual e-Filing for LLP</a></li>
+<li id="llpserv5"><a href="/MinistryV2/changellpinformation.html">Change LLP Information</a></li>
+<li id="llpserv6"><a href="/MinistryV2/closellp.html">Close LLP</a></li>
+</ul>
+</span>
+<li class="subarrow" id="llp2"><span class="pink_arrow" id="pink-highlight-llp-bususr"><a href="javascript:showDiv('llp3','','','','','','','llp2');">LLP Services For Business User</a></span></li>
+<span class="aboutsubnava floatLeft" id="llp3">
+<ul id="nav-inner-llp2">
+<li id="enterUpdatePartnerDetails"><a href="enterUpdatePartnerDetails.do">Enter/Update Partner Details  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li class="lineheighta" id="viewForm3ScreenSRNDetails"><a href="loadViewForm3ScreenSRNDetails.do">View Form 3 screen SRN details  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li class="lineheighta" id="enterForm3and4Details"><a href="enterForm3and4Details.do">Enter Form 3 Or Form 3&amp;4 Details For LLP Filing  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li class="lineheighta" id="verifyPartnerDetails"><a href="verifyPartnerDetails.do">Verify Partner's Details For Filing Annual Return  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li class="lineheighta" id="viewForm11ScreenSRNDetails"><a href="loadViewForm11ScreenSRNDetails.do">View Form 11 screen SRN details  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</span>
+<!-- li class="subarrow" id="LLP-services-for-business-user"><span id="pink-highlight-llpservicesforbusinessusers" class="pink_arrow"><a href="javascript:showDiv('LLP-services-for-business-user2','','','','','','LLP-services-for-business-user');">LLP Services for Business Users</a></span></li>
+	<span class="aboutsubnava floatLeft" id="LLP-services-for-business-user2">
+		<ul id="LLP-services-for-business-user3">
+			<li id="enterUpdatePartnerDetails"><a href="enterUpdatePartnerDetails.do">Enter/Update Partner Details&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span></a></li>
+			<li class="lineheighta" id="enterForm3and4Details"><a href="enterForm3and4Details.do">Enter Form 3 Or Form 3&amp;4 Details For LLP Filing&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" />&nbsp;&nbsp;<img alt="New" src="img/New.png" /></span></a></li>
+			<li class="lineheighta" id="verifyPartnerDetails"><a href="verifyPartnerDetails.do">Verify Partner's Details For Filing Annual Return&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span></a></li>
+		</ul>
+	</span-->
+<li class="subarrow" id="subnav-efiling"><span class="pink_arrow" id="pink-highlight-efiling"><a href="javascript:showDiv('subnav1-efiling','','','','subnav-efiling');">e-Filing</a></span></li>
+<span class="aboutsubnava floatLeft" id="subnav1-efiling">
+<ul id="nav-inner-efiling">
+<!--<li id="efiling0"><a href="/MinistryV2/allaboutefiling.html">About e-Filing</a></li>-->
+<li id="llpforms"><a href="/MinistryV2/llpformsdownload.html">LLP Forms Download</a></li>
+<li id="efiling1"><a href="/MinistryV2/companyformsdownload.html">Company Forms Download</a></li>
+<!--li id="efiling2"><a href="/MinistryV2/AnnualFiling.html">Annual e-Filing Guidelines</a></li-->
+<!--<li id="submitPANTAN"><a href="showSubmitPanTan.do">Submit Application for PAN and TAN &nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span>&nbsp;<img alt="New" src="img/New.png" /></a></li>-->
+<li id="eformUpld"><a href="showEformUpload.do">Upload eForms   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li class="lineheighta" id="downloadForResub"><a href="showDownloadForResub.do">Download Submitted Form for resubmission   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="checkFilingStatus"><a href="showCheckFilingStatus.do">Check Annual Filling Status</a></li>
+<li id="uploadDetails"><a href="uploadDetailsOfSH.do">Upload Details of Security Holders/Debenture Holders/Depositors<span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="uploadSubsidiaryDetails"><a href="subsidiaryDetails.do">Update Subsidiary Details   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</span>
+<li class="subarrow" id="company"><span class="pink_arrow" id="pink-highlight-compserv"><a href="javascript:showDiv('company1','','','','','company');">Company Services</a></span></li>
+<span class="aboutsubnava floatLeft" id="company1">
+<ul class="left-submenu" id="nav-inner-comp1">
+<li id="comp"><a href="showCheckCompanyName.do">Check Company Name</a></li>
+<li id="findcin"><a href="findCIN.do">Find CIN</a></li>
+<!--<li><a href="runService.do">RUN (Reserve Unique Name) &nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span>&nbsp;<img alt="New" src="img/New.png" /></a></li>-->
+<li><a href="runService.do"><span style="font: 15px 'Bauhaus 93';">RUN</span><span style="border: 0px; padding: 0px; margin-left: 0px;"> (Reserve Unique Name)</span>  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<!--li id="compserv2"><a href="/MinistryV2/incorporation_company.html">Incorporation</a></li>
+			<li id="compserv3"><a href="/MinistryV2/ComplianceRelatedFiling.html">Compliance Filing</a></li>
+			<li id="compserv4"><a href="/MinistryV2/ApprovalRelatedFiling.html">Approval Services</a></li>
+			<li id="compserv9"><a href="/MinistryV2/ChangeCompInfo.html">Change Company Information</a></li>
+			<li id="compserv5"><a href="/MinistryV2/charge.html">Charge Management</a></li>
+			<li id="compserv6"><a href="/MinistryV2/informational_Services.html">Informational Services</a></li>
+			<li id="compserv8"><a href="/MinistryV2/CloseCompany.html">Close Company</a></li-->
+</ul>
+</span>
+<li class="subarrow" id="complaints"><span class="pink_arrow" id="pink-highlight-complaints"><a href="javascript:showDiv('complaints1','','','','','','','complaints');">Complaints</a></span></li>
+<span class="aboutsubnava floatLeft" id="complaints1">
+<ul id="nav-inner-complaints1">
+<li class="lineheighta" id="createservicecomplaint"><a href="userComplaintDetails.do">Create Service Related Complaint</a></li>
+<li class="lineheighta" id="trackservicecomplaint"><a href="trackStatus.do">Track Service Related Complaint Status</a></li>
+<li><a href="/MinistryV2/createinvestorcomplaint.html">Create Investor/Serious Complaint</a></li>
+<li class="lineheighta" id="trackinvesseriouscomplaint"><a href="mcatrackComplaintLayout.do">Track Investor/Serious Complaint Status</a></li>
+<li id="suggestions"><a href="userSuggestionDetails.do">Feedback / Suggestions</a></li>
+<li class="lineheighta" id="employeegrievances"><a href="/mcafoportal/userEmployeeGrievances.do">Employee Grievances</a></li>
+</ul>
+</span>
+<li class="subarrow" id="subnav-document"><span class="pink_arrow" id="pink-highlight-document"><a href="javascript:showDiv('subnav1-document','','','','','','','','subnav-document');">Document Related Services</a></span></li>
+<span class="aboutsubnava floatLeft" id="subnav1-document">
+<ul id="nav-inner-document1">
+<li id="getCertifiedDoc"><a href="getCertifiedCopies.do">Get Certified Copies</a></li>
+<li id="viewPublicDoc"><a href="viewPublicDocumentsFilter.do">View Public Documents</a></li>
+<li class="lineheighta" id="reqScannedDoc"><a href="showRequestForScannedDocuments.do">Request for Scanned Documents  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</span>
+<li class="subarrow" id="subnav-feeAndPayment"><span class="pink_arrow" id="pink-highlight-feeAndPayment"><a href="javascript:showDiv('subnav1-feeAndPayment','','','','','','','','','subnav-feeAndPayment');">Fee and Payment Services</a> </span> </li>
+<span class="aboutsubnava floatLeft" id="subnav1-feeAndPayment">
+<ul id="nav-inner-feeAndPayment1">
+<!-- <li id="calculateFee"><a href="enquireFeePreLogin.do">Calculate Fees</a></li> -->
+<li id="enquirefee"><a href="enquireFee.do">Enquire Fees</a></li>
+<li id="PayLater"><a href="showPayLater.do">Pay Later   <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="LinkNEFT"><a href="showNEFTPayment.do">Link NEFT Payment  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="PayMiscellaneous"><a href="showPayMiscellaneousFee.do">Pay Miscellaneous Fee  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="PayStampDuty"><a href="showStampDutyPayment.do">Pay Stamp Duty  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<li id="trackPayment"><a href="showTrackPaymentStatus.do">Track Payment Status</a></li>
+<li><a href="grnSRNForOflnPmnt.do">Generate SRN For Offline Payment  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+</ul>
+</span>
+<li class="subarrow" id="investor">
+<span class="pink_arrow" id="pink-highlight-document">
+<a href="javascript:showDiv('investorservices','','','','','','','','','investor');">Investor Services
+			</a>
+</span></li>
+<span class="aboutsubnava floatLeft" id="investorservices" style="display:none;">
+<ul id="nav-inner-comp1">
+<li id="run">
+<a href="/mcafoportal/iepf5Service.do">
+<span style="font: 15px 'Bauhaus 93';">IEPF-5</span>  
+            <span class="lockmargin">
+<img src="img/newLock.png" title="Post login service"/>  
+              <img alt="New" src="img/New.png"/>
+</span>
+</a>
+</li>
+<li id="run">
+<a href="/mcafoportal/iepf5TrackService.do">
+            Track<span style="font: 15px 'Bauhaus 93';"> IEPF-5 </span>SRN  
+            <span class="lockmargin">
+<img src="img/newLock.png" title="Post login service"/>  
+              <img alt="New" src="img/New.png"/>
+</span>
+</a>
+</li>
+</ul>
+</span>
+<li id="trackSRN"><a href="mcatrackSRNLayout.do">Track SRN/Transaction Status  <span class="lockmargin"><img src="img/newLock.png" title="Post login service"/></span></a></li>
+<!-- <li id="transferDeed"><a href="transferDeedLayout.do">Transfer Deed&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span></a></li> -->
+<!-- Not part of Release1<li id="migratedLLPPartner"><a href="migratedLLPPartnerDetails.do">Migrated LLP Partner Details&nbsp;&nbsp;<span class="lockmargin"><img src="img/newLock.png" /></span></a></li>
+	-->
+<li class="lineheighta" id="otherlinks1"><a href="/MinistryV2/addressforsendingphysicalcopyofg.a.r.33.html">Address for sending physical copy of G.A.R. 33</a></li>
+<li><a href="http://ipindiaonline.gov.in/tmrpublicsearch/frmmain.aspx" target="_blank">Public Search of Trademark <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li id="stk2"><a href="noticesLayout.do">Notices Under Section 248(2)</a></li>
+</ul>
+</div>
+</section>
+<div class="rightInnerContent floatLeft" id="companiesact1">
+<div class="dinheading">
+<h2 class="floatLeft">Company/LLP Master Data</h2>
+</div>
+<section class="dinsteps floatLeft">
+<div class="background_overlay" id="bg_overlay" name="bg_overlay" style="opacity: 0.5;" title="bg_overlay"></div>
+<div class="msg_overlay withleftnav" id="msg_overlay" name="msg_overlay" style="top: 62.7269px; display: block;" title="msg_overlay">
+<h2 class="error_overlay">Error</h2>
+<a class="boxclose" id="msgboxclose"></a>
+<p class="error">Following errors have occured while submitting the page:</p>
+<div class="overlay-content" id="overlayCnt" name="overlayCnt" title="overlayCnt">
+<ul class="errorMessage">
+<li>Enter valid Letters shown.</li>
+</ul>
+</div>
+</div>
+<div class="background_overlay" id="alertbg_overlay" name="alertbg_overlay" style="display: none;" title="alertbg_overlay"></div>
+<div class="msg_overlay withleftnav" id="alertmsg_overlay" name="alertmsg_overlay" style="display: none;" title="alertmsg_overlay">
+<h2 class="error_overlay">Error</h2>
+<a class="boxclose" id="alertboxclose"></a>
+<p class="error">Following errors have occured while submitting the page:</p>
+<div class="overlay-content" id="alertMsgs" name="overlayCnt"></div>
+</div>
+<div class="background_overlay" id="backgroundOverlay" name="backgroundOverlay" style="display:none;"></div>
+<div class="overlay" id="overlay" name="overlay" style="display:none;">
+<h2 class="heading_overlay">CIN /LLPIN Lookup</h2>
+<a class="boxclose" id="boxclose" name="boxclose"></a><br/>
+<script src="js/jquery.dataTables.js" type="text/javascript"></script>
+<form>
+<table align="center" class="input-forms" id="inputsTab1" name="inputsTab1">
+<tbody><tr>
+<td align="right"><b style="color:red;">*</b>Company / LLP Name</td>
+<td><input id="searchcompanyname" name="searchcompanyname" onkeydown="javascript: if (event.keyCode==13) return fetchCINData();" size="40" type="text"/></td>
+</tr>
+<tr height="10%">
+<td align="center" colspan="2"><input class="imgButton" id="findcindata" name="findcindata" onclick="javascript: return fetchCINData();" title="Search" type="button" value="Search"/> <input class="imgButton" id="clearBtn" name="clearBtn" onclick="javascript: return resetSearchCINList();" title="Clear All" type="button" value="Clear All"/>
+</td>
+</tr>
+</tbody></table>
+<input id="compname" name="compname" type="hidden" value="companyName"/> <input id="compid" name="compid" type="hidden" value="companyID"/>
+<input id="closeid" name="closeid" type="hidden" value="boxclose"/>
+<input id="miscFeeType" name="miscFeeType" type="hidden" value=""/>
+</form>
+<br/>
+<div id="cin_wrapper">
+<table class="result-forms alignCenter" id="cinlist" name="cinlist"></table>
+</div>
+<div class="background_overlay" id="error_overlay" name="error_overlay" style="display: none;" title="error_overlay"></div>
+<div class="msg_overlay" id="errormsg_overlay" name="errormsg_overlay" style="display: none;" title="errormsg_overlay">
+<h2 class="error_overlay">Error</h2>
+<a id="errorboxclose" name="errorboxclose"></a>
+<p class="error">Following errors have occured while submitting the page:</p>
+<div id="error" name="error"></div>
+</div>
+</div>
+<br/>
+<form action="/mcafoportal/companyLLPMasterData.do" id="companyLLPMasterData" method="post" name="companyLLPMasterData">
+<table class="input-forms input_table" id="MasterDataInputTab1" name="MasterDataInputTab1">
+<tbody><tr class="table-row">
+<td>Company / LLP Name</td>
+<td>
+<input disabled="" id="companyName" name="companyName" size="30" type="text" value=""/>
+<img alt="search" id="imgSearchIcon" name="imgSearchIcon" onclick="javascript:showSearchCINOverlay('backgroundOverlay','overlay','boxclose','companyID');" src="/mcafoportal/img/searchicon.png"/>
+</td>
+</tr>
+<tr class="table-row">
+<td> Company CIN/FCRN/LLPIN/FLLPIN <b style="color:red;">*</b></td>
+<td> <input id="companyID" maxlength="21" name="companyID" onchange="javascript: clearCompanyName()" size="30" type="text" value="U15332MH1996PTC099964"/></td>
+</tr>
+<input id="displayCaptcha" name="displayCaptcha" type="hidden" value="true"/>
+<tr class="table-row">
+<td>Enter Characters shown below :</td>
+<td class="crop">
+<img alt="Captcha" id="captcha" src="/mcafoportal/getCapchaImage.do" style="border:1px solid black;width:230px;height:75px;"/>
+<a href="#" id="captchaRefresh" onclick="javascript: return refreshCaptcha();" style="float:inherit">
+<img height="25" src="./img/refresh_captcha.png" title="Refresh" width="25"/>
+</a>
+</td>
+</tr>
+<tr class="table-row">
+<td></td>
+<td><input class="textBoxIconInput" id="userEnteredCaptcha" name="userEnteredCaptcha" style="padding-left:0" tabindex="3" title="userEnteredCaptcha" type="text" value="untder"/>
+</td>
+</tr>
+<tr class="table-row">
+<td></td>
+<td id="tdConfirmBtn" name="tdConfirmBtn">
+<input class="imgButton" id="companyLLPMasterData_0" onclick="javascript:return preSubmit();" type="submit" value="Submit"/>
+<input class="imgButton" onclick="javascript: redirect('viewCompanyMasterData.do');" type="reset" value="Clear All"/>
+</td>
+</tr>
+</tbody></table>
+</form>
+</section>
+</div>
+<div class="clearBoth"></div>
+</div>
+</div>
+<div id="footer"><div class="clearBoth"></div>
+<footer class="widthcommon center">
+<div class="inner floatRight">
+<div class="quicklinks">
+<ul>
+<li><span class="quickfont font-Segoe-bold">Quick Links</span>
+<ul>
+<li><a href="http://www.pmindia.gov.in" target="_blank" title="Prime Minister Office">PMO
+							 <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<!--li><a href="http://www.clb.nic.in/" target="_blank"
+						title="Company Law Board">CLB &nbsp;<img title="External Link"
+							alt="External Link" src="img/ext.png" border="0"></a></li-->
+<li><a href="http://www.cci.gov.in/" target="_blank" title="Competition Commission of India">CCI  <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="http://sfio.nic.in/" target="_blank" title="Serious Fraud Investigation Office">SFIO
+							 <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="http://www.iica.in/" target="_blank" title="Indian Institute of Corporate Affairs">IICA  <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="http://www.ibbi.gov.in/" target="_blank" title="Insolvency and Bankruptcy Board of India">IBBI <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+</ul></li>
+<li> 
+				<ul>
+<li><a href="http://www.nfcgindia.org/" target="_blank" title="National Foundation for Corporate Governance">NFCG
+							 <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<!-- <li><a href="http://compat.nic.in/" target="_blank"
+						title="Competition Appellate Tribunal">CAT &nbsp;<img
+							title="External Link" alt="External Link"
+							src="img/ext.png" border="0"></a></li> -->
+<li><a href="http://www.nclat.nic.in/" target="_blank" title="National Company Law Appellate Tribunal"> NCLAT  <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="http://nclt.gov.in/" target="_blank" title="National Company Law Tribunal"> NCLT  <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="http://www.icai.org/" target="_blank" title="Institute of Chartered Accountants of India">ICAI (CA)
+							 <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="http://www.icsi.edu/" target="_blank" title="Institute of Company Secretaries of India">ICSI (CS)
+							 <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="http://icmai.in/" target="_blank" title="Institute of Cost Accountants of India">ICAI (CMA)
+							 <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+</ul></li>
+<li class="lastthree"> 
+				<ul>
+<li><a href="/MinistryV2/principalaccountsoffice.html">Principal
+							Account Office</a></li>
+<li><a href="/MinistryV2/sitemap.html">Sitemap</a></li>
+<li><a href="/MinistryV2/disclaimer.html">Disclaimer</a></li>
+<li><a href="/Ministry/pdf/MCAprivacypolicy.pdf" target="_blank">Privacy Policy</a></li>
+</ul></li>
+<li class="lastthree"> 
+				<ul>
+<li><a href="http://investindia.gov.in/" target="_blank">Invest
+							India  <img alt="External Link" border="0" src="img/ext.png" title="External Link"/></a></li>
+<li><a href="/MinistryV2/about_mca.html">About MCA</a></li>
+<li><a href="/MinistryV2/companiesact2013.html">Acts &amp;
+							Rules</a></li>
+<li><a href="/MinistryV2/applyfordin.html">MCA Services</a></li>
+<li><a href="/MinistryV2/annualreports.html">Statistics
+							&amp; Reports</a></li>
+</ul></li>
+<li class="lastthree"> 
+				<ul>
+<li><a href="/MinistryV2/rti.html">RTI</a></li>
+<li><a href="/MinistryV2/efiling.html">Help &amp;
+							FAQs</a></li>
+<li><a href="/MinistryV2/corporatesevakendra.html">Corporate Seva Kendra</a></li>
+<li><a href="/MinistryV2/webinformationmanager.html">Contacts</a></li>
+</ul></li>
+</ul>
+</div>
+<div class="mcaapps">
+<ul>
+<li class="font-Segoe-bold">MCA Applications
+				<ul>
+<li><a href="/mcafoportal/" target="_blank" title="MCA21 Application"><img src="img/mca.png"/></a></li>
+<li><a href="/mcafoportal/" target="_blank" title="Limited Liability Partnership"><img src="img/llpimg.png"/></a></li>
+<li><a href="/XBRL/index.html" target="_blank" title="eXtensible Business Reporting Language"><img src="img/xbrl1.png"/></a></li>
+<li><a href="http://www.iepf.gov.in/" target="_blank" title="Investor Education and Protection Fund"><img src="img/iepf1.png"/></a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</footer>
+<div class="clearBoth"></div>
+<div id="copyright"><span class="widthcommon">This site is owned by Ministry of Corporate Affairs.</span></div>
+<div id="copyright" style="padding: 0px 0px 0px 0px;"><span class="widthcommon">The site is best viewed in Internet Explorer 9.0 +, Firefox 24+ or Chrome 33+.</span></div>
+</div>
+</body></html>
